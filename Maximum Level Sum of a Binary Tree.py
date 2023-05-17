@@ -23,8 +23,6 @@ class Solution:
 
             levelSum(root.right, levelSumArray, level + 1, depth)
             levelSum(root.left, levelSumArray, level + 1, depth)
-
-        
         
         levelSumArray = [0] * 1000
         depth = [0]
@@ -32,7 +30,6 @@ class Solution:
 
         #return index of largest sum
         return levelSumArray.index(max(levelSumArray[: depth[0] + 1])) + 1
-
 
 
 # Create an instance of the Solution class
