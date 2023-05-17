@@ -17,7 +17,6 @@ class Solution:
                 index2 += 1
                 wordToAppend = 1
         
-
         while(index1 != len(word1)):
             ans += word1[index1]
             index1 += 1
@@ -26,8 +25,6 @@ class Solution:
             index2 += 1
         
         return ans
-
-
 
 # Create an instance of the Solution class
 solution = Solution()
